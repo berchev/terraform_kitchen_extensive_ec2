@@ -1,0 +1,8 @@
+.bundle/
+.kitchen/
+Gemfile.lock
+file.tfvars
+georgiman.env
+vendor/
+test/assets/
+test/fixtures/wrapper/.terraform/
