@@ -47,7 +47,7 @@ Please follow the instructions below in order to run this project.
 - Note that you have default security group in AWS. In order to be able to access the created terraform image via ssh, you need to add a specific **rule** in your security group. Follow the steps below in order to add this rule:
   - Once you logged in to AWS Console, click on **Security Groups**
   - from button **Actions** select **Edit inbound rules**
-  - When the dialog window appears click on ***Add Rule* button
+  - When the dialog window appears click on ***Add Rule** button
   - choose **SSH** from **Type** drop-down menu 
   - choose **Anywhere** from **Source** drop-down menu 
   - click on **Save** button
