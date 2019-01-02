@@ -9,7 +9,7 @@ Content of this repo is guideline on features of extensive Kitchen-Terraform by 
 - `outputs.tf` - Terraform outputs file 
 - `.kitchen.yml` - Kitchen configuration file
 - `Gemfile` -  Specify the the ruby version, and all gems needed for Kitchen test
-- `test directory - Contain files needed for the kitchen test itself.
+- `test directory` - Contain files needed for the kitchen test itself.
 - `ssh.sh` - bash script which generates SSH key 
 - `<file>.env` - **ATTENTION! This file is not uploaded because contain sensitive information!** Contain AWS information needed to terraform in order to create the ec2 image. Please create your own file (the name, before extention, is not really matters) in the following format:
   ```
